@@ -304,7 +304,7 @@ export default function App() {
                 <div 
                   key={idx} 
                   onClick={() => setSelectedImage(image)}
-                  className="relative aspect-[3/4] w-[260px] sm:w-[310px] shrink-0 rounded-xl overflow-hidden border border-gold-300/10 hover:border-gold-400/40 bg-stone-950 cursor-pointer group shadow-md transition-all active:scale-[0.98]"
+                  className="relative aspect-[3/4] w-[260px] sm:w-[310px] shrink-0 snap-start rounded-xl overflow-hidden border border-gold-300/10 hover:border-gold-400/40 bg-stone-950 cursor-pointer group shadow-md transition-all active:scale-[0.98]"
                 >
                   <img
                     src={image}
@@ -330,7 +330,7 @@ export default function App() {
               ))}
 
               {/* Ready to customize placeholder visual block */}
-              <div className="border-2 border-dashed border-stone-800 rounded-xl flex flex-col items-center justify-center p-4 text-center aspect-[3/4] w-[260px] sm:w-[310px] shrink-0 group hover:border-gold-300/20 transition-all">
+              <div className="border-2 border-dashed border-stone-800 rounded-xl flex flex-col items-center justify-center p-4 text-center aspect-[3/4] w-[260px] sm:w-[310px] shrink-0 snap-start group hover:border-gold-300/20 transition-all">
                 <div className="w-10 h-10 rounded-full bg-stone-900 border border-stone-800 flex items-center justify-center text-stone-500 mb-2 group-hover:text-gold-300 group-hover:border-gold-300/20 transition-colors">
                   +
                 </div>
@@ -492,7 +492,7 @@ export default function App() {
                   <div 
                     key={idx}
                     onClick={() => setSelectedImage(image)}
-                    className="relative aspect-[3/4] w-[210px] sm:w-[250px] shrink-0 rounded-xl overflow-hidden border border-emerald-500/10 hover:border-emerald-500/40 cursor-pointer bg-stone-950 group shadow-md transition-all active:scale-[0.98]"
+                    className="relative aspect-[3/4] w-[210px] sm:w-[250px] shrink-0 snap-start rounded-xl overflow-hidden border border-emerald-500/10 hover:border-emerald-500/40 cursor-pointer bg-stone-950 group shadow-md transition-all active:scale-[0.98]"
                   >
                     <img
                       src={image}
@@ -521,7 +521,7 @@ export default function App() {
                   <div 
                     key={idx}
                     onClick={() => setSelectedImage(image)}
-                    className="relative w-[280px] sm:w-[350px] shrink-0 rounded-xl overflow-hidden border border-gold-400/20 hover:border-gold-400/50 cursor-pointer bg-stone-950 group shadow-lg transition-all active:scale-[0.98] p-2"
+                    className="relative w-[280px] sm:w-[350px] shrink-0 snap-start rounded-xl overflow-hidden border border-gold-400/20 hover:border-gold-400/50 cursor-pointer bg-stone-950 group shadow-lg transition-all active:scale-[0.98] p-2"
                   >
                     <div className="aspect-[3/2] rounded-lg overflow-hidden bg-stone-900/60 border border-gold-400/10 flex items-center justify-center p-1">
                       <img
