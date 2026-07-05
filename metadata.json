@@ -1,0 +1,6 @@
+{
+  "name": "Dra. Thatiana Cristine - Harmonização Facial",
+  "description": "Landing page premium e interativa com quiz personalizado para agendamento de Harmonização Facial com a Dra. Thatiana Cristine em Belo Horizonte.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
